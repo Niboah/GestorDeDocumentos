@@ -1,0 +1,8 @@
+Directorio:
+    - EXE
+
+Subdirectorios: -
+
+Observaciones:
+     Contiene los ejecutables para probar las clases y los juegos de pruebas.
+     Habrá un subdirectorio para cada clase a probar, con los ejecutables necesarios, los datos de los juegos de prueba y la descripcion de estos.

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<documento>
+    <titulo>TxtPrueba</titulo>
+    <autor>TxtPrueba</autor>
+    <contenido>Aunque el contenido del documento es diferente dara error porque tienen mismo titulo y autor.</contenido>
+</documento>

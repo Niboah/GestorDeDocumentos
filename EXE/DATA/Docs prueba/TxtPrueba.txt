@@ -1,0 +1,3 @@
+TxtPrueba
+TxtPrueba
+Este es un contenido de prueba en un documento .txt.

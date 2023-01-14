@@ -1,0 +1,1 @@
+java -cp out presentacion.controlador.CtrlPresentacion

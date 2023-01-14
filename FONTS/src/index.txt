@@ -1,0 +1,10 @@
+Directorio:
+    - src
+
+Subdirectorios:
+    - dominio
+    - persistencia
+    - presentacion
+
+Observaciones:
+    Contiene los directorios de dominio, persistencia y presentacion que estaran relacionados entre ellos mediante su propio controlador.

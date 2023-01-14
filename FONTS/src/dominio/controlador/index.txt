@@ -1,0 +1,34 @@
+Directorio:
+    - controlador
+
+Subdirectorios: -
+
+Observaciones:
+    Contiene todos los controladores de dominio.
+    El controlador de dominio es quien se comunica con los controladores de persistencia y presentacion.
+
+
+
+CtrlDominio
+    altaAutor
+        Autor no se crea en CtrlDominio
+
+
+Documento
+    getTerm
+
+ListaAutor
+    Mirar_num_documentos_autor -> mirarNumDocumentosAutor
+
+
+
+    treeSet
+        coste  log n
+        sorted
+
+    hashset
+        coste    1
+        no sorted
+
+
+

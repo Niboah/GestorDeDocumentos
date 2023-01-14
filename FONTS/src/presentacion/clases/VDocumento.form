@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="presentacion.clases.VDocumento">
+  <grid id="27dc6" binding="panelContenidos" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="703" height="570"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="36ee3" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <preferredSize width="10" height="10"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="ec1b0" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties>
+          <preferredSize width="10" height="10"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="acaa8" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="West"/>
+        <properties>
+          <preferredSize width="10" height="10"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="63d39" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="East"/>
+        <properties>
+          <preferredSize width="10" height="10"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="12363" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="21091" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="b1858" class="javax.swing.JLabel" binding="tituloText">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <text value="Titulo"/>
+                </properties>
+              </component>
+              <component id="b4388" class="javax.swing.JTextField" binding="tituloArea">
+                <constraints border-constraint="Center"/>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+          <grid id="2effe" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="82947" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="e9032" class="javax.swing.JLabel" binding="autorText">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <text value="Autor"/>
+                    </properties>
+                  </component>
+                  <component id="4f4e1" class="javax.swing.JTextField" binding="autorArea">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+              <grid id="e15f9" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="a347b" class="javax.swing.JLabel" binding="labelContenido">
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <text value="Contenido"/>
+                    </properties>
+                  </component>
+                  <scrollpane id="9cb19">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="e5406" class="javax.swing.JTextPane" binding="contenidoText">
+                        <constraints/>
+                        <properties/>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <grid id="df314" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="South"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="8dbd9" class="javax.swing.JButton" binding="guardarBoton">
+                        <constraints border-constraint="East"/>
+                        <properties>
+                          <text value="Guardar"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,11 @@
+//CAMBIAR COSAS DEL INCIDE CUANDO TOQUEMOS ESTA CAPA
+
+
+Directorio:
+    - persistencia
+
+Subdirectorios:
+    - clases
+    - controlador
+
+Observaciones: -

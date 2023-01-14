@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="presentacion.clases.VMain">
+  <grid id="cbd77" binding="panelContenidos" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="48" y="54" width="1023" height="519"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+      <minimumSize width="0" height="114"/>
+      <preferredSize width="800" height="234"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="84d57" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <preferredSize width="800" height="214"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="fb30a" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="West"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <toolbar id="bcaf2">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <visible value="false"/>
+                </properties>
+                <border type="bevel-lowered"/>
+                <children>
+                  <component id="9827f" class="javax.swing.JComboBox" binding="edicionCB">
+                    <constraints/>
+                    <properties>
+                      <model>
+                        <item value="Editar"/>
+                        <item value="Expresion booleana"/>
+                        <item value="Autores"/>
+                        <item value="Salir"/>
+                      </model>
+                    </properties>
+                  </component>
+                </children>
+              </toolbar>
+            </children>
+          </grid>
+          <grid id="2b4f4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="East"/>
+            <properties>
+              <maximumSize width="200" height="32767"/>
+              <preferredSize width="200" height="48"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="bd2b4" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints/>
+                <properties>
+                  <preferredSize width="10" height="10"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <component id="4d173" class="javax.swing.JButton" binding="mostrarDocumentosBoton">
+                <constraints/>
+                <properties>
+                  <preferredSize width="190" height="38"/>
+                  <text value="Mostrar Todos Documentos"/>
+                </properties>
+              </component>
+              <grid id="adb53" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints/>
+                <properties>
+                  <preferredSize width="10" height="10"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <component id="4fd5d" class="javax.swing.JButton" binding="abrirDocumentoB">
+                <constraints/>
+                <properties>
+                  <preferredSize width="190" height="38"/>
+                  <text value="Abrir Documento"/>
+                </properties>
+              </component>
+              <grid id="94bd" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints/>
+                <properties>
+                  <preferredSize width="10" height="10"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <component id="17501" class="javax.swing.JButton" binding="altaDocumentoBoton">
+                <constraints/>
+                <properties>
+                  <borderPainted value="true"/>
+                  <contentAreaFilled value="true"/>
+                  <focusCycleRoot value="false"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <inheritsPopupMenu value="false"/>
+                  <maximumSize width="190" height="38"/>
+                  <preferredSize width="190" height="38"/>
+                  <text value="Crear Documento"/>
+                  <verticalAlignment value="0"/>
+                  <verticalTextPosition value="0"/>
+                </properties>
+              </component>
+              <component id="9b9db" class="javax.swing.JButton" binding="cargarDocumentoButton">
+                <constraints/>
+                <properties>
+                  <preferredSize width="190" height="38"/>
+                  <text value="Cargar Documento"/>
+                </properties>
+              </component>
+              <component id="68a58" class="javax.swing.JButton" binding="eliminarDocumentoB">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <preferredSize width="190" height="38"/>
+                  <text value="Eliminar Documento"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="3a025" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="11bd1" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="a89f0">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <enabled value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="72217" class="javax.swing.JTable" binding="table1" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <autoCreateRowSorter value="false"/>
+                      <dragEnabled value="false"/>
+                      <opaque value="false"/>
+                      <rowHeight value="30"/>
+                      <rowMargin value="5"/>
+                      <updateSelectionOnSort value="false"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <grid id="5719a" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="f2ca6" class="javax.swing.JButton" binding="filtrarBoton">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <text value="Filtrar"/>
+                    </properties>
+                  </component>
+                  <component id="2fb9b" class="javax.swing.JComboBox" binding="filtrador">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <model>
+                        <item value="Filtrar documento por:"/>
+                        <item value="k docs parecidos(titulo, autor, k)"/>
+                        <item value="query(k, query palabras)"/>
+                        <item value="expresion booleana(expression bool)"/>
+                        <item value="autor(autor)"/>
+                      </model>
+                      <preferredSize width="308" height="38"/>
+                    </properties>
+                  </component>
+                  <grid id="ee12a" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                    <constraints border-constraint="South"/>
+                    <properties>
+                      <preferredSize width="500" height="48"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="92126" class="javax.swing.JLabel" binding="label1">
+                        <constraints/>
+                        <properties>
+                          <text value="Titulo"/>
+                        </properties>
+                      </component>
+                      <component id="5325c" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <visible value="true"/>
+                        </properties>
+                      </component>
+                      <component id="9c5d7" class="javax.swing.JTextField" binding="filtra1">
+                        <constraints/>
+                        <properties>
+                          <preferredSize width="200" height="38"/>
+                        </properties>
+                      </component>
+                      <component id="58887" class="javax.swing.JLabel" binding="label2">
+                        <constraints/>
+                        <properties>
+                          <text value="Autor"/>
+                        </properties>
+                      </component>
+                      <component id="131ce" class="javax.swing.JTextField" binding="filtra2">
+                        <constraints/>
+                        <properties>
+                          <preferredSize width="100" height="38"/>
+                        </properties>
+                      </component>
+                      <component id="ad072" class="javax.swing.JLabel" binding="label3">
+                        <constraints/>
+                        <properties>
+                          <text value="K"/>
+                        </properties>
+                      </component>
+                      <component id="666d0" class="javax.swing.JTextField" binding="filtra3">
+                        <constraints/>
+                        <properties>
+                          <preferredSize width="100" height="38"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="ed42a" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="North"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="3dea4" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <minimumSize width="0" height="10"/>
+          <preferredSize width="0" height="10"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="9c00a" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="East"/>
+        <properties>
+          <minimumSize width="10" height="0"/>
+          <preferredSize width="10" height="0"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="f45fb" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties>
+          <minimumSize width="10" height="0"/>
+          <preferredSize width="0" height="10"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="b34c0" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="West"/>
+        <properties>
+          <minimumSize width="10" height="0"/>
+          <preferredSize width="10" height="0"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>

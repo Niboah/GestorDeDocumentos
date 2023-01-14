@@ -1,0 +1,3 @@
+TxtPrueba
+TxtPrueba
+Aunque el contenido del documento es diferente dara error porque tienen mismo titulo y autor.

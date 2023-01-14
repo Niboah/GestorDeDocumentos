@@ -1,0 +1,7 @@
+Directorio:
+    - clases
+
+Subdirectorios: -
+
+Observaciones:
+    Contiene todos las clases: Autor, BoolNode, Document, ExpresionBooleana, ListaAutor, ListaDocumentos, ListaExpresionBooleana y SimilitudDocumento.

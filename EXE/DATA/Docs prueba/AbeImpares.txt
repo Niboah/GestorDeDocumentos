@@ -1,0 +1,5 @@
+Abecedario y impares
+Ruben
+1 b 3 d 5 f 7 h 9 
+j 11 l 13 n 15 p 17 r 
+19 t 21 v 23 x 25 z 27

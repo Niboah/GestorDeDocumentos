@@ -1,0 +1,11 @@
+Para poder ejecutar el programa 
+
+primero compila el codigo con el 
+	build.bat
+luego ejecuta el programa con 
+	run.bat
+
+o las 2 cosas a la vez con 
+	Build_Run.bat
+
+

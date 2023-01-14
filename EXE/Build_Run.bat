@@ -1,0 +1,2 @@
+javac --release 11 -encoding utf-8 -d ..\EXE\out  ..\FONTS\src\dominio\clases\*.java ..\FONTS\src\dominio\controlador\*.java ..\FONTS\src\presentacion\clases\*.java ..\FONTS\src\presentacion\controlador\*.java  ..\FONTS\src\persistencia\clases\*.java ..\FONTS\src\persistencia\controlador\*.java
+java -cp out presentacion.controlador.CtrlPresentacion
