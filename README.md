@@ -1,8 +1,8 @@
-#Gestor de Documentos
+# Gestor de Documentos
 
 Practica de GEI-PROP(2022-2023Q1)
 
-#Mienbros
+# Miembros
 
 subgrupo-prop42.3
 
